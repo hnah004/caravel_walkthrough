@@ -1,0 +1,2246 @@
+{
+ "builder": {
+  "_version": "5.0.0-dev",
+  "_logger": "hdl_checker.builders.ghdl",
+  "_work_folder": "/home/cass/uniccass_example/.hdl_checker",
+  "_builtin_libraries": [
+   {
+    "name": "src",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "std",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "ieee",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "vendors",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   }
+  ],
+  "_added_libraries": [],
+  "__class__": "GHDL"
+ },
+ "config_file": [
+  {
+   "name": "/tmp/hdl_checker_project_pid78059.json",
+   "__class__": "Path"
+  },
+  1725553051.9357433,
+  "generated"
+ ],
+ "database": {
+  "sources": [
+   {
+    "path": {
+     "name": "/tmp/tmp71kk12m1.v",
+     "__class__": "TemporaryPath"
+    },
+    "mtime": 1725543872.036251,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/tmp/tmpp79lfobb.v",
+     "__class__": "TemporaryPath"
+    },
+    "mtime": 1725553003.3657439,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/tmp/tmpk9tbu0yr.v",
+     "__class__": "TemporaryPath"
+    },
+    "mtime": 1725542820.9363067,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/cass/uniccass_example/verilog/gl/user_project_wrapper.v",
+     "__class__": "Path"
+    },
+    "mtime": 1725548641.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/tmp/tmpneb492q1.v",
+     "__class__": "TemporaryPath"
+    },
+    "mtime": 1725543669.1762624,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/tmp/tmpzg8pb4os.v",
+     "__class__": "TemporaryPath"
+    },
+    "mtime": 1725544060.99624,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/tmp/tmp7mp7oxop.v",
+     "__class__": "TemporaryPath"
+    },
+    "mtime": 1725542787.0363083,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/tmp/tmp_xxxw_as.v",
+     "__class__": "TemporaryPath"
+    },
+    "mtime": 1725543450.1162724,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/cass/uniccass_example/verilog/rtl/user_defines.v",
+     "__class__": "Path"
+    },
+    "mtime": 1725553165.6857169,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/cass/uniccass_example/verilog/gl/user_proj_example.nl.v",
+     "__class__": "Path"
+    },
+    "mtime": 1725546996.8060906,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/cass/uniccass_example/verilog/rtl/seven_segment_seconds.v",
+     "__class__": "Path"
+    },
+    "mtime": 1725542912.7562995,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/cass/uniccass_example/verilog/dv/la_test2/la_test2_tb.v",
+     "__class__": "Path"
+    },
+    "mtime": 1725536441.3049457,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/cass/uniccass_example/verilog/gl/user_project_wrapper.nl.v",
+     "__class__": "Path"
+    },
+    "mtime": 1725549440.8859322,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/cass/uniccass_example/verilog/rtl/uprj_netlists.v",
+     "__class__": "Path"
+    },
+    "mtime": 1725536441.4449458,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [
+     {
+      "owner": {
+       "name": "/home/cass/uniccass_example/verilog/rtl/uprj_netlists.v",
+       "__class__": "Path"
+      },
+      "name": {
+       "name": "user_project_wrapper.v",
+       "case_sensitive": true,
+       "__class__": "VerilogIdentifier"
+      },
+      "locations": [
+       [
+        25,
+        12
+       ]
+      ],
+      "__class__": "IncludedPath"
+     },
+     {
+      "owner": {
+       "name": "/home/cass/uniccass_example/verilog/rtl/uprj_netlists.v",
+       "__class__": "Path"
+      },
+      "name": {
+       "name": "gl/user_proj_example.v",
+       "case_sensitive": true,
+       "__class__": "VerilogIdentifier"
+      },
+      "locations": [
+       [
+        23,
+        12
+       ]
+      ],
+      "__class__": "IncludedPath"
+     },
+     {
+      "owner": {
+       "name": "/home/cass/uniccass_example/verilog/rtl/uprj_netlists.v",
+       "__class__": "Path"
+      },
+      "name": {
+       "name": "defines.v",
+       "case_sensitive": true,
+       "__class__": "VerilogIdentifier"
+      },
+      "locations": [
+       [
+        16,
+        8
+       ]
+      ],
+      "__class__": "IncludedPath"
+     },
+     {
+      "owner": {
+       "name": "/home/cass/uniccass_example/verilog/rtl/uprj_netlists.v",
+       "__class__": "Path"
+      },
+      "name": {
+       "name": "user_proj_example.v",
+       "case_sensitive": true,
+       "__class__": "VerilogIdentifier"
+      },
+      "locations": [
+       [
+        26,
+        12
+       ]
+      ],
+      "__class__": "IncludedPath"
+     },
+     {
+      "owner": {
+       "name": "/home/cass/uniccass_example/verilog/rtl/uprj_netlists.v",
+       "__class__": "Path"
+      },
+      "name": {
+       "name": "gl/user_project_wrapper.v",
+       "case_sensitive": true,
+       "__class__": "VerilogIdentifier"
+      },
+      "locations": [
+       [
+        22,
+        12
+       ]
+      ],
+      "__class__": "IncludedPath"
+     }
+    ],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/tmp/tmpikm5imbx.v",
+     "__class__": "TemporaryPath"
+    },
+    "mtime": 1725544320.7062266,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/tmp/tmpjnbqvabk.v",
+     "__class__": "TemporaryPath"
+    },
+    "mtime": 1725544733.356209,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/tmp/tmp1eso3ncl.v",
+     "__class__": "TemporaryPath"
+    },
+    "mtime": 1725542997.0662944,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/cass/uniccass_example/verilog/dv/seven_segment_seconds/seven_segment_seconds_tb.v",
+     "__class__": "Path"
+    },
+    "mtime": 1725544732.846209,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/tmp/tmpmbgo_qz4.v",
+     "__class__": "TemporaryPath"
+    },
+    "mtime": 1725543281.0562832,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/cass/uniccass_example/verilog/dv/la_test1/la_test1_tb.v",
+     "__class__": "Path"
+    },
+    "mtime": 1725536441.3049457,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/cass/uniccass_example/verilog/rtl/defines.v",
+     "__class__": "Path"
+    },
+    "mtime": 1725536441.4449458,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/cass/uniccass_example/verilog/rtl/user_project_wrapper.v",
+     "__class__": "Path"
+    },
+    "mtime": 1725544983.6961942,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/cass/uniccass_example/verilog/gl/user_proj_example.v",
+     "__class__": "Path"
+    },
+    "mtime": 1725546097.0,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/tmp/tmpidmdvx6_.v",
+     "__class__": "TemporaryPath"
+    },
+    "mtime": 1725552521.3757606,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/tmp/tmp4fard4hv.v",
+     "__class__": "TemporaryPath"
+    },
+    "mtime": 1725553166.1957169,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/tmp/tmp2u9im67z.v",
+     "__class__": "TemporaryPath"
+    },
+    "mtime": 1725544915.5961947,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/tmp/tmp0cnag561.v",
+     "__class__": "TemporaryPath"
+    },
+    "mtime": 1725543429.9462733,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/cass/uniccass_example/verilog/dv/io_ports/io_ports_tb.v",
+     "__class__": "Path"
+    },
+    "mtime": 1725536441.3049457,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/tmp/tmpiprcj6e9.v",
+     "__class__": "TemporaryPath"
+    },
+    "mtime": 1725544984.2061942,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/tmp/tmpcr2jzp39.v",
+     "__class__": "TemporaryPath"
+    },
+    "mtime": 1725543923.696247,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/cass/uniccass_example/verilog/dv/wb_port/wb_port_tb.v",
+     "__class__": "Path"
+    },
+    "mtime": 1725536441.314946,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/tmp/tmp_ptayskk.v",
+     "__class__": "TemporaryPath"
+    },
+    "mtime": 1725544998.7961934,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/cass/uniccass_example/verilog/rtl/user_proj_example.v",
+     "__class__": "Path"
+    },
+    "mtime": 1725545007.7761927,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/cass/uniccass_example/verilog/dv/mprj_stimulus/mprj_stimulus_tb.v",
+     "__class__": "Path"
+    },
+    "mtime": 1725536441.3049457,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/tmp/tmp4fsph_p3.v",
+     "__class__": "TemporaryPath"
+    },
+    "mtime": 1725544145.7562368,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   }
+  ],
+  "inferred_libraries": [
+   {
+    "name": "/tmp/tmp71kk12m1.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp97hxjn63.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpp5n70im1.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpg3l75whi.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpp79lfobb.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp4z6y7ukq.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp9s9rd1ot.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp8t638umh.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpe8s3l9ts.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmps7g83r9y.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp3q4pqger.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpn14865rz.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp62ayxe30.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpmrr4ups3.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp_g6s4h8_.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpxifs01om.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp9mknlwgw.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp0o53tedq.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpnhwxs0ax.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpf3oqmex9.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpz6cjueuh.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpbbrrj3t0.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpbqgcq6di.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpq4pho75a.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp_p11js28.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpfbih1lx5.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpjnbqvabk.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpytimqq3t.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp1eso3ncl.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpnd72qngb.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmppggnuc4t.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp2eh6z9kg.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpa5xn5kpy.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmprrauy05h.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpu0a2olze.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpwsv9m9pb.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpqn82ne62.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp3948f3go.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpqbc2_8ai.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpa3iozkyj.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpmkrymg2g.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmplsw5rh_7.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp1q104glj.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp3dggpxd8.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpeb8tr9wx.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpehv6ijhz.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmps_5ll0cg.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp9dtru1vp.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp6qmryhne.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmppgptwkq9.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp4qxgmin1.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp0o6w8vm1.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp4fsph_p3.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp300g2yre.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpgjndw4bf.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpwt285gvj.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpjc_nk7d6.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp9_lfn7_a.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp2e1wtgvk.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpqbah6hql.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp70t8b1p1.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp583vi1bw.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpk9tbu0yr.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpev6rerow.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpxi9c9dlc.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpqejua260.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp83yyr736.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpaffkua3p.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp7ggb3zzi.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmptoge_lqw.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmptywbn02g.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpkkh1gdn2.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/home/cass/uniccass_example/verilog/rtl/seven_segment_seconds.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp5__w8cky.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpbu3tlj1l.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpzaucmi3k.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpnvzonxdo.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpkrk_rdpt.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp8ywtk0t2.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp2um1df6u.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpq87l0sdu.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp93353t_o.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpbddy5y74.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpra75atas.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp3ynkk18v.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/home/cass/uniccass_example/verilog/dv/seven_segment_seconds/seven_segment_seconds_tb.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpt4q96l7n.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpo2l_oz9s.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpmbgo_qz4.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpltskw5x0.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpg4e0vh7g.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpohu6odl8.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpm0j_z2e6.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpbirf5hm1.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/home/cass/uniccass_example/verilog/rtl/user_project_wrapper.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpr81w_g9s.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpjeo06fv9.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpcr6wwwfb.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpidmdvx6_.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp4fard4hv.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpmw7nsz6t.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmplg_d7omn.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpmt3er2qt.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpjvf9c8fz.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpk1usuwfu.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpshiet4rv.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/home/cass/uniccass_example/verilog/rtl/user_proj_example.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpiimonw65.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpvlpa_sfo.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpiv05enpu.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpdmpw2kwi.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpy4qpgxti.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpyrvivel_.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmprzbpame_.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp3vdoci6j.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpjnivxvhl.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpcpijvu86.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpvshxkv6i.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpv7aaclde.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpzg8pb4os.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpahtd5xfy.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp_gzu7bg_.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpu5tum05o.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpv2ps4fdd.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpsn_inidj.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmplp2ewq12.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpn6vin6xr.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpcsopbpbk.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmppjjf1k7y.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp900b2nqq.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpgrqnkf14.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpv1j52c9p.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp1ed8m8u3.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpq1qtqql7.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpikm5imbx.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp3_e503jc.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpjbn6ughb.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpo1fr65eo.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp17xjqudh.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmphd9q9ein.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpawseej1p.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpgc6se9qi.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpuz1urb28.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpx1oerm8f.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp0imj4r30.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpeq2bzgxf.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp7yhunxez.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpeebajpn8.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpuxyz_s_j.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp3hxni5df.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp47nxpeuc.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp2dzcz50t.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp0sdjcjph.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpau7sp6bl.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp9wkluf70.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp64sk0il6.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp98ba2c3j.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpfe735bfm.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp4_xx9qd4.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpqkza7hse.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp_ptayskk.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpi41o_aev.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpn1hjapgr.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpsl_of65f.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpd6jgw4br.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpcozqafcn.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpnkpnmmnk.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpc4bhc3h6.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp46vg3pb7.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp3zmmd2kn.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp6lxsn373.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp5vrb7rgi.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpneb492q1.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp7mp7oxop.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpqn9u6mnw.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/home/cass/uniccass_example/verilog/rtl/user_defines.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp_xxxw_as.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpc52k_4m2.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmppiy0mjbv.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmphkj9j7c_.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpj7tutus5.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp7a6yvrdq.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpn8pmcb0n.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpka0156g5.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmphuex2fyd.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpazg0dt_a.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpl4jnnl9i.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpkgmsiee_.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpf3kvhcz2.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpyzg2i9ub.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp8f61s4dg.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp_dui1mt2.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp4nv01lm9.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpk5ajnzwl.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmputnvfd0v.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpis5yzvng.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp2u9im67z.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpmivs5078.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmppyr8fv8s.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp0cnag561.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpiprcj6e9.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpndc3u5wq.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp3kxki8tb.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpqljrfhd6.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpcr2jzp39.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp4yj7lbtd.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpdd09tfj5.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp7ozzqzqv.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpm5jbviqm.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpemw37ck9.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmppe_6_dh8.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp2gtbzinq.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp_t_5jo0_.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpyaqew_yk.v",
+    "__class__": "Path"
+   }
+  ],
+  "design_units": [
+   {
+    "owner": {
+     "name": "/home/cass/uniccass_example/verilog/dv/la_test2/la_test2_tb.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "la_test2_tb",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      19,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/tmp/tmp1eso3ncl.v",
+     "__class__": "TemporaryPath"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "seg7",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      73,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/tmp/tmp_ptayskk.v",
+     "__class__": "TemporaryPath"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "user_proj_example",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      37,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/tmp/tmpiprcj6e9.v",
+     "__class__": "TemporaryPath"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "user_project_wrapper",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      31,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/tmp/tmpmbgo_qz4.v",
+     "__class__": "TemporaryPath"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "seven_segment_sec",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      2,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/tmp/tmpk9tbu0yr.v",
+     "__class__": "TemporaryPath"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "seven_segment_seconds",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      2,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/tmp/tmp71kk12m1.v",
+     "__class__": "TemporaryPath"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "seg7",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      73,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/tmp/tmpneb492q1.v",
+     "__class__": "TemporaryPath"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "seg7",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      71,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/tmp/tmp71kk12m1.v",
+     "__class__": "TemporaryPath"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "seven_segment_seconds",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      2,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/cass/uniccass_example/verilog/gl/user_proj_example.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "user_proj_example",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/tmp/tmp0cnag561.v",
+     "__class__": "TemporaryPath"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "seven_segment_seconds",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      2,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/tmp/tmp1eso3ncl.v",
+     "__class__": "TemporaryPath"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "seven_segment_seconds",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      2,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/tmp/tmp2u9im67z.v",
+     "__class__": "TemporaryPath"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "user_proj_example",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      37,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/tmp/tmp_xxxw_as.v",
+     "__class__": "TemporaryPath"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "seg7",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      67,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/cass/uniccass_example/verilog/rtl/seven_segment_seconds.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "seg7",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      73,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/tmp/tmpneb492q1.v",
+     "__class__": "TemporaryPath"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "seven_segment_seconds",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      2,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/cass/uniccass_example/verilog/dv/seven_segment_seconds/seven_segment_seconds_tb.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "seven_segment_seconds_tb",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      19,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/tmp/tmpzg8pb4os.v",
+     "__class__": "TemporaryPath"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "user_proj_example",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      37,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/cass/uniccass_example/verilog/rtl/user_project_wrapper.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "user_project_wrapper",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      31,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/tmp/tmp4fsph_p3.v",
+     "__class__": "TemporaryPath"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "counter",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      111,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/tmp/tmpmbgo_qz4.v",
+     "__class__": "TemporaryPath"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "seg7",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      70,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/cass/uniccass_example/verilog/dv/wb_port/wb_port_tb.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "wb_port_tb",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      19,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/tmp/tmp4fsph_p3.v",
+     "__class__": "TemporaryPath"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "user_proj_example",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      37,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/tmp/tmpcr2jzp39.v",
+     "__class__": "TemporaryPath"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "seg7",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      73,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/cass/uniccass_example/verilog/rtl/seven_segment_seconds.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "seven_segment_seconds",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      2,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/tmp/tmpjnbqvabk.v",
+     "__class__": "TemporaryPath"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "seven_segment_seconds_tb",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      19,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/tmp/tmp7mp7oxop.v",
+     "__class__": "TemporaryPath"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "seg7",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      73,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/cass/uniccass_example/verilog/rtl/user_proj_example.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "user_proj_example",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      37,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/cass/uniccass_example/verilog/gl/user_proj_example.nl.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "user_proj_example",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      1,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/cass/uniccass_example/verilog/gl/user_project_wrapper.nl.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "user_project_wrapper",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      1,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/tmp/tmpikm5imbx.v",
+     "__class__": "TemporaryPath"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "user_proj_example",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      37,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/tmp/tmp7mp7oxop.v",
+     "__class__": "TemporaryPath"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "seven_segment_seconds",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      2,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/cass/uniccass_example/verilog/dv/la_test1/la_test1_tb.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "la_test1_tb",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      19,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/tmp/tmpzg8pb4os.v",
+     "__class__": "TemporaryPath"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "counter",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      77,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/cass/uniccass_example/verilog/dv/io_ports/io_ports_tb.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "io_ports_tb",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      19,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/tmp/tmpk9tbu0yr.v",
+     "__class__": "TemporaryPath"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "seg7",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      73,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/tmp/tmpcr2jzp39.v",
+     "__class__": "TemporaryPath"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "seven_segment_seconds",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      2,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/cass/uniccass_example/verilog/dv/mprj_stimulus/mprj_stimulus_tb.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "mprj_stimulus_tb",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      19,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/cass/uniccass_example/verilog/gl/user_project_wrapper.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "user_project_wrapper",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/tmp/tmp0cnag561.v",
+     "__class__": "TemporaryPath"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "seg7",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      73,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   }
+  ],
+  "__class__": "Database"
+ },
+ "__version__": "0.7.4"
+}
