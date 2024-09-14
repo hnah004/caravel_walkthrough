@@ -84,18 +84,20 @@ module user_project_wrapper #(
 
 user_proj_example mprj (
 `ifdef USE_POWER_PINS
-	.vccd1(vccd1),	// User area 1 1.8V power
-	.vssd1(vssd1),	// User area 1 digital ground
+    	.vccd1(vccd1),	// User area 1 1.8V power
+    	.vssd1(vssd1),	// User area 1 digital ground
+    .vccd2(vccd2),
+    .vssd2(vssd2),
 `endif
 
     .wb_clk_i(wb_clk_i),
     .wb_rst_i(wb_rst_i),
+    
+    // Logic Analyzer
 
-    // IO Pads
-
-    .io_in ({io_in[37:30],io_in[7:0]}),
-    .io_out({io_out[37:30],io_out[7:0]}),
-    .io_oeb({io_oeb[37:30],io_oeb[7:0]})
+    .la_data_in(la_data_in),
+    .la_data_out(la_data_out),
+    .la_oenb (la_oenb)
 );
 
 endmodule	// user_project_wrapper
